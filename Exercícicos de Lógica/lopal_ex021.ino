@@ -4,10 +4,10 @@
 //b. Essa idade convertida em semana
 
 //Variáveis 
-long anoNascimento = 0;
-long anoAtual = 0;
-long idadeAtual = 0;
-long idadeSemana = 0;
+int anoNascimento = 0;
+int anoAtual = 0;
+int  idadeAtual = 0;
+int idadeSemana = 0;
 
 void setup()
 {
@@ -16,6 +16,18 @@ void setup()
 
 void loop()
 {
+  //cabeçalho
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|         LOPAL-EX_02          |");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+  Serial.println();//pula uma linha
+  Serial.println();//pula uma linha
+  
+    
+  
  //Entrada 
   Serial.println("Digite seu ano de nascimento");//pergunta o ano de nascimento do usuário
   while(! Serial.available() );//espera o usuário digitar/dar um <Enter>

@@ -14,6 +14,16 @@ void setup()
 
 void loop()
 {
+   //cabeçalho
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|         LOPAL-EX_01          |");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+  Serial.println();//pula uma linha
+  Serial.println();//pula uma linha
+  
   //entrada
   Serial.println("Digite a sua idade");// pergunte a idade do usuário
   while( ! Serial.available() ){}// aguarda o usuário digitar (para o loop)

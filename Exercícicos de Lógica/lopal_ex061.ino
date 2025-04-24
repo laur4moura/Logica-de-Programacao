@@ -12,6 +12,17 @@ void setup()
 
 void loop()
 {
+   //cabeçalho
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|         LOPAL-EX_06          |");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+  Serial.println();//pula uma linha
+  Serial.println();//pula uma linha
+  
+  
   //Entrada 
   Serial.println("Digite uma medida em polegadas");//pergunta uma medida em polegadas da escolha do usuário
   while(! Serial.available() );//espera o usuário digitar/dar um <Enter>

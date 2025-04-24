@@ -11,6 +11,17 @@ void setup()
 
 void loop()
 {
+   //cabeçalho
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|         LOPAL-EX_03          |");
+  Serial.println("|                              |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+  Serial.println();//pula uma linha
+  Serial.println();//pula uma linha
+  
+
   //Entrada 
   Serial.println("Digite um numero qualquer");//pergunta um número da escolha do usuário
   while(! Serial.available() );//espera o usuário digitar/dar um <Enter>
